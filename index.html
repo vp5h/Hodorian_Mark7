@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speak Like Minions</title>
+    <link rel="stylesheet" href="./styles.css">
+   
+    <!-- <style>
+        textarea {
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 80%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+    </style> -->
+</head>
+
+<body>
+    <header class="hero">
+        <img class="hero-img" src="./images/hodor.png" alt="Image">
+        <h1 class="hero-heading">Hear it from Hodor</h1>
+    </header>
+    <section class="section">
+        <div class="container container-center section-center">
+        
+        <textarea id="text-input"
+            placeholder="Put your sentence in English here and we will convert it to Hodorian"></textarea>
+        <button id="btn-translate">Translate</button>
+
+        <div class="outputDiv">
+            <p>Translated To Hodorian </p>
+            <hr>
+            <div id="output">
+            </div>
+        </div>
+    </section>
+    <script src="app.js" type="text/javascript"></script>
+
+</body>
+
+</html>
